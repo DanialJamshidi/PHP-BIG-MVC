@@ -85,7 +85,7 @@ function urlPath($path)
 
 function publicPath($path)
 {
-    safeEcho("./" . $path);
+    safeEcho(Config::URLROOT() . $path);
 }
 
 function getDbConnection(): PDO
@@ -289,8 +289,7 @@ function getCurrentUrl()
         ? "https://"
         : "http://";
     $host = $_SERVER['HTTP_HOST'];
-    $uri = $_SERVER['REQUEST_URI'];
-    return $protocol . $host . $uri;
+    return rtrim($protocol . $host, '/') . '/';
 }
 
 function WEB()

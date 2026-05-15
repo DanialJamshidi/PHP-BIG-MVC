@@ -1,4 +1,6 @@
 <?php
+// Made by DanialJamshidi
+// danialjamshidi.ir
 
 use app\core\core\Core;
 

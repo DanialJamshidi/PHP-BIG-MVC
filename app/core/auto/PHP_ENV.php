@@ -1,6 +1,6 @@
 <?php
 
-namespace app\auto;
+namespace app\core\auto;
 
 $path = "../app/configs/.env";
 

@@ -592,7 +592,7 @@
 
         <!-- Footer -->
         <div class="footer-section">
-            <span class="version-pill">v1.0.0 — Stable</span>
+            <span class="version-pill">v2.0.0 — Stable</span>
             <p class="footer-text">
                 Built with passion by
                 <a href="https://github.com/DanialJamshidi" target="_blank">Danial Jamshidi</a>

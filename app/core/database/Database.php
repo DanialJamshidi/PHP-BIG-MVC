@@ -2,7 +2,7 @@
 
 namespace app\core\database;
 
-use app\configs\DB;
+use app\core\configs\DB;
 use app\errors\Errors;
 use PDO;
 use PDOException;
